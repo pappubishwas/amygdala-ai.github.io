@@ -247,5 +247,35 @@
 		"conference": "Multimedia Tools and Applications 82 (Springer)",
 		"link": "https://link.springer.com/article/10.1007/s11042-022-14283-z",
 		"brief": "This paper aims to improve the lecture delivery mechanism in real-time in a classroom and remote sessions over web-based applications. In the traditional system, a lecturer observes their students’ attention levels from his/her experience. To date, no system automatically tracks the students’ attention level in a class in real-time (or while the lecturer is delivering his/her lectures remotely over web-based applications). On the other hand, our proposed system periodically will monitor the learning behaviour of the whole class and track the attentiveness of each student. The proposed system is not meant to identify the non-attentive students and punish them. Contrary to the punishment-based mechanism, it introduces a counseling-based mechanism. This deep learning-based real-time face monitoring system will allow lecturers to improvise/her delivery either through bringing diversity in the class contents or personal care to those non-attentive students. The concept of the deep learning technique in an ensemble configuration has been used to predict the likelihood of eyes’ openness. Separately, a student’s facial expressions are also recognized using our Convolutional Neural Network (CNN) model. Finally, the net learning behaviour of a student has been computed by a weighted average of these two features (that is, eyes’ openness and facial expressions). The student learning behaviour is validated twice with Pearson correlation coefficient and Spearman correlation coefficient measures between the openness of eye and facial expressions."
+	},
+	{
+		"id": 26,
+		"title": "South Asian Sounds: Audio Classification",
+		"authors": "Rajdeep Chatterjee, Pappu Bishwas, Sudip Chakrabarty, Tathagata Bandyopadhyay",
+		"author_ids": [5],
+		"date": "2024/9/28",
+		"conference": "C3IT",
+		"link": "https://ieeexplore.ieee.org/document/10829485",
+		"brief": "This study focuses on urban sound classification using Mel-Frequency Cepstral Coefficients (MFCCs) and a 1D Convolutional Neural Network (1D-CNN). The approach extracts MFCC features from audio recordings of urban environments in Bangladesh, capturing the spectral characteristics of various sounds. The 1D-CNN model then classifies these sounds into categories like road-traffic noise, traditional Bengali songs, trains, classroom noise, and tanpura. The method is tested on datasets collected from Bangladesh, India, and the UrbanSounds8k dataset, achieving high classification accuracy. The results highlight the effectiveness of combining MFCCs and 1D-CNNs for urban sound classification, with potential applications in urban planning, environmental monitoring, and smart city development....."
+	},
+	{
+		"id": 27,
+		"title": "ClipXpert: Automated Clip Mining from Video Data for High-Demand Content",
+		"authors": "Rajdeep Chatterjee, Pappu Bishwas, Sudip Chakrabarty",
+		"author_ids": [5],
+		"date": "2025/2/27",
+		"conference": "ISACC",
+		"link": "https://ieeexplore.ieee.org/document/10969233",
+		"brief": "ClipXpert is an innovative system designed to automate the extraction of relevant clips from YouTube videos based on user-defined keywords or the analysis of frequently used words and comments. The system leverages advanced transcription models to search a pre-existing database for lines associated with the specified keywords. In cases where the database does not contain relevant content, ClipXpert dynamically identifies and stores new, pertinent material for future use. Additionally, the system automatically detects frequently used nouns, adjectives, and adverbs, generating focused content highlights without requiring manual intervention. To further enhance its functionality, ClipXpert incorporates sentiment analysis on YouTube comments, providing insights into audience engagement and the overall reception of the content. By combining these powerful features, ClipXpert offers a highly efficient and accurate solution for extracting targeted video clips, meeting the increasing demand for high-value, easily accessible content in the ever-evolving digital media landscape...."
+	},
+	{
+		"id": 28,
+		"title": "Drones in Defense: Real-Time Vision-Based Military Target Surveillance and Tracking",
+		"authors": "Sudip Chakrabarty, Rajdeep Chatterjee, Sorup Chakraborty, Sourov Roy Shuvo, Rajesh Chowdhury",
+		"author_ids": [5],
+		"date": "2025/2/27",
+		"conference": "ISACC",
+		"link": "https://ieeexplore.ieee.org/document/10969335",
+		"brief": "In response to the growing demand for enhanced security and real-time threat detection, this study presents a robust system for drone-based military surveillance using deep learning. A specialized dataset of drone-captured videos was created, with carefully selected frames optimized for training and evaluation. The study investigates the performance of three YOLO models—YOLOv5, YOLOv8, and the latest YOLOv11—along with their lightweight nano and small variants to strike a balance between detection accuracy and processing speed. Among these, YOLOv11s emerged as the most effective, demonstrating high accuracy with low computational load. To further enhance real-time tracking capabilities, YOLOv11s was integrated with multiple tracking algorithms including ByteTrack, BoT-SORT, and DeepSORT. The combination of YOLOv11s and ByteTrack proved to be the most reliable, offering precise and efficient detection and tracking of enemy assets in dynamic environments. This system showcases a significant step forward in autonomous surveillance, with promising applications in military operations where safety, speed, and accuracy are paramount...."
 	}
 ]
